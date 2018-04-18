@@ -1,0 +1,24 @@
+{
+  "name": "drawn-with-rxjs",
+  "version": "1.0.0",
+  "description": "new proyect to drawn differents APIs with rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarJunior/drawn-with-rxjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarJunior/drawn-with-rxjs/issues"
+  },
+  "homepage": "https://github.com/OscarJunior/drawn-with-rxjs#readme",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.5.10",
+    "leaflet": "^1.3.1",
+    "rx-dom": "^7.0.3"
+  }
+}

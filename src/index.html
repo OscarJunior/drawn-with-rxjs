@@ -1,0 +1,36 @@
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Earthquake map</title>
+    <link rel="stylesheet" href="../node_modules/leaflet/dist/leaflet.css" />
+    <script src="../node_modules/leaflet/dist/leaflet.js"></script>
+    <script src="../node_modules/@reactivex/rxjs/dist/global/Rx.js"></script>
+    <script type="text/javascript" src="../node_modules/rx/dist/rx.all.js"></script>
+    <script type="text/javascript" src="../node_modules/rx-dom/dist/rx.dom.js"></script>
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        var map = L.map('map').setView([33.858631, -118.279602], 7);
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
